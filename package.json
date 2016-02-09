@@ -6,7 +6,7 @@
     "start": "gulp",
     "test": "gulp test",
     "report-coverage": "cat ./coverage/lcov.info | codecov",
-    "semantic-release": "semantic-release pre && npm publish --access public && semantic-release post",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "commit": "git-cz"
   },
   "author": "",
@@ -32,8 +32,8 @@
     "validate-commit-msg": "^1.1.1"
   },
   "dependencies": {
-      "inquirer-npm-name": "^1.0.0",
-      "yeoman-generator": "^0.21.1"
+    "inquirer-npm-name": "^1.0.0",
+    "yeoman-generator": "^0.21.1"
   },
   "repository": {
     "type": "git",

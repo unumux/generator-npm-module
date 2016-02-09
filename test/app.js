@@ -19,7 +19,6 @@ describe("generator-npm-module:app", function() {
                 ".babelrc",
                 ".gitignore",
                 ".tern-project",
-                ".travis.yml",
                 "gulpfile.js",
                 "package.json",
                 "LICENSE",

@@ -2,20 +2,17 @@ sudo: false
 language: node_js
 cache:
   directories:
-  - node_modules
+    - node_modules
 notifications:
   email: false
 node_js:
-- '4'
+  - '4'
 before_install:
-- npm i -g npm@^2.0.0
+  - npm i -g npm@^2.0.0
 before_script:
-- npm prune
+  - npm prune
 after_success:
-- npm run report-coverage
-- npm run semantic-release
-script:
-- npm run test
+  - npm run semantic-release
 branches:
   except:
-  - /^v\d+\.\d+\.\d+$/
+    - "/^v\\d+\\.\\d+\\.\\d+$/"
