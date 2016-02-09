@@ -1,6 +1,7 @@
 {
   "name": "@unumux/generator-npm-module",
   "description": "",
+  "version": "0.0.0-semantically-released",
   "main": "dist/index.js",
   "scripts": {
     "start": "gulp",
