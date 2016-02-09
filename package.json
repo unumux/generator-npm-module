@@ -1,0 +1,45 @@
+{
+  "name": "@unumux/generator-npm-module",
+  "version": "0.0.0",
+  "description": "",
+  "homepage": "",
+  "author": {
+    "name": "UnumUX",
+    "email": "chenderson2@unum.com",
+    "url": ""
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "inquirer-npm-name": "^1.0.0",
+    "yeoman-generator": "^0.21.1",
+    "yosay": "^1.0.2"
+  },
+  "devDependencies": {
+    "@unumux/eslint-config-unumux": "^1.0.1",
+    "babel-eslint": "^4.1.8",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.10.3",
+    "gulp-mocha": "^2.0.0",
+    "gulp-nsp": "^2.1.0",
+    "gulp-plumber": "^1.0.0",
+    "yeoman-assert": "^2.0.0"
+  },
+  "eslintConfig": {
+    "extends": "@unumux/eslint-config-unumux/node",
+    "env": {
+      "mocha": true
+    }
+  },
+  "repository": "git@github.com:unumux/generator-npm-module.git",
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "MIT"
+}
