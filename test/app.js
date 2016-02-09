@@ -22,7 +22,7 @@ describe("generator-npm-module:app", function() {
                 ".travis.yml",
                 "gulpfile.js",
                 "package.json",
-                "LICENSE.md",
+                "LICENSE",
                 "README.md",
                 "src/index.js"
             ]);
